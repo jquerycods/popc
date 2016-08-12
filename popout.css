@@ -1,0 +1,53 @@
+﻿/*
+// Blogger Eklentileri URL=(http://bloggereklentileri.blogspot.com.tr/)
+// Çizgi Film Hikayeleri URL=(http://cizgifilmhikayeleri.blogspot.com.tr/)
+// Blogger Grupları URL=(https://plus.google.com/u/0/+BloggerGruplar%C4%B1)
+*/
+#pop_out {visibility:visible;}
+#pop_out span{bottom: 0px;font: 7px "lucida grande",tahoma,verdana,arial,sans-serif;position: absolute;right: 6px;text-align: right;z-index: 99999;}
+#pop_out span a{color: #808080;text-decoration:none;}
+#pop_out span a:hover{text-decoration:underline;}
+#off {visibility:hidden;}
+#fb_div {width:246px;height:150px;overflow: hidden;}
+#twitter_div {width:100%;height:100%;overflow: hidden;}
+#plus_google_div {width:100%;height:100%;overflow: hidden;}
+#beburner_div {width:100%;height:100%;overflow: hidden;}
+/* Widget Right Style */
+.pop_icon {color: #fff;font-size: 1.3rem;}
+.fa-facebook.pop_icon {padding: 20px 13px;}
+.fa-twitter.pop_icon {border-radius: 5px 0 0 5px;padding: 20px 10px;background: #1571A5;}
+.fa-google-plus.pop_icon {border-radius: 5px 0 0 5px;padding: 20px 6px;background: #BF2424;}
+.fa-rss.pop_icon {border-radius: 5px 0 0 5px;padding: 20px 12px;background: #ea7237;}
+#fb_right {z-index: 10005;border: 2px solid #435680;background-color: #526ba5;width: 250px;height:76px;position: fixed;right: -250px;}
+#fb_right a {border-radius: 5px 0 0 5px;background: #2E4372;position: absolute;top: -2px;left: -40px;}
+#fb_right div {border:0px solid #3c95d9;overflow: hidden;position: static;height:150px;left:-2px;top:-3px;}
+#tweet_right {z-index: 10004;border: 2px solid #1571a5;background-color: #33a1e1;width:250px;height:32%;position: fixed;right: -250px;}
+#tweet_right_img {position: absolute;top: -2px;left: -40px;border: 0;}
+#plus_google_right {z-index: 10003;background-color:#f9f9f9;border:2px solid #bf2424;width:80px;height:100px;position: fixed;right: -80px;border-radius: 0 0 0 5px;}
+#plus_google_right_img {position: absolute;top: -2px;left: -40px;border: 0;}
+#abone_right {z-index: 10003;background-color:#f9f9f9;border: 2px solid #ea7237;width:303px;height:100px;position: fixed;right: -303px;}
+#abone_right_a {position: absolute;top: -2px;left: -40px;border: 0;}
+#blogger_right {z-index: 10003;border:2px solid #303030;background-color: #fff;width:300px;height: 97px;position: fixed;}
+#blogger_right img {position: absolute;top: -2px;left: -101px;}
+/* Widget Left Style */
+#fb_left{z-index: 10005;border:2px solid #3c95d9;background-color: #fff;width:250px;height: 250px;position: fixed;left: -250px;}
+#fb_left a {position: absolute;top: -2px;right: -35px;}
+#fb_left iframe {border:0px solid #3c95d9;overflow: hidden;position: static;height: 250px;right:-2px;top:-3px;}
+#tweet_left {z-index: 10004;border:2px solid #6CC5FF;background-color: #6CC5FF;width: 246px;height: 242px; position: fixed;left: -250px;}
+#tweet_left_a {position: absolute;top: -2px;right: -35px;border: 0;}
+#plus_google_left {z-index: 10003;background-color: #006ec9;border:2px solid #006ec9;border-top:2px solid #0056a0;border-bottom: 2px solid #0056a0;border-left:2px solid #0056a0;border-right: hidden;width:152px;height: 97px;position: fixed;left: -154px;}
+#plus_google_left_a {position: absolute;top: -2px;right: -33px;border: 0;}
+#abone_left {z-index: 10003;background-color: #fefefe;border:2px solid #5b5b5b;border-top:2px solid #5b5b5b;border-bottom: 2px solid #5b5b5b;border-left:2px solid #5b5b5b;border-right: hidden;width:300px;height: 97px;position: fixed;left: -303px;}
+#beburner_div form {margin:35px auto;}
+#abone_left_a {position: absolute;top: -2px;right: -33px;border: 0;}
+#blogger_left {z-index: 10003;border:2px solid #303030;background-color: #fff;width:300px;height: 97px;position: fixed;}
+#blogger_left img {position: absolute;top: -2px;right: -101px;}
+.box-title1 {border:1px solid #ddd;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;border-radius:6px;box-shadow: 5px 5px 5px #CCCCCC;padding:10px;margin: 10px 0;}
+.enteryouremail{background:#fff !important;border: 1px solid #ccc;padding: 0px 8px 0px 8px;color:#ddd; font-size: 12px;height: 25px; width: 165px;border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;margin:0px;}
+.submitbutton{background:#ea7237;border: 1px solid #ea7237;font:bold 12px Arial, sans-serif;color: #fff;height: 25px;padding: 0 12px 0 12px;margin: 0 0 0 5px;border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;cursor:pointer;}
